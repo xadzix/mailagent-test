@@ -1,0 +1,90 @@
+[
+  {
+    "thread_id": "thread-001",
+    "subject": "Поставка подшипниковых узлов для конвейерной линии",
+    "messages": [
+      {
+        "message_id": "email-001",
+        "thread_id": "thread-001",
+        "sender": "procurement@uralmechanika.example.com",
+        "recipients": ["sales@industria-komplekt.example.com"],
+        "subject": "Поставка подшипниковых узлов для конвейерной линии",
+        "body": "Добрый день. Просим предложить 24 подшипниковых узла УКП-205 для модернизации конвейерной линии. Укажите наличие и технические характеристики.",
+        "sent_at": "2026-10-01T08:00:00.100000Z",
+        "in_reply_to_message_id": null
+      },
+      {
+        "message_id": "email-002",
+        "thread_id": "thread-001",
+        "sender": "sales@industria-komplekt.example.com",
+        "recipients": ["procurement@uralmechanika.example.com"],
+        "subject": "Поставка подшипниковых узлов для конвейерной линии",
+        "body": "Здравствуйте. На складе есть 30 узлов УКП-205. Корпус чугунный, диаметр вала 25 мм. Возможна отгрузка в течение трёх рабочих дней.",
+        "sent_at": "2026-10-01T08:00:00.900000Z",
+        "in_reply_to_message_id": "email-001"
+      },
+      {
+        "message_id": "email-003",
+        "thread_id": "thread-001",
+        "sender": "procurement@uralmechanika.example.com",
+        "recipients": ["sales@industria-komplekt.example.com"],
+        "subject": "Поставка подшипниковых узлов для конвейерной линии",
+        "body": "Подтверждаем потребность в 24 узлах. Просим зарезервировать оборудование и сообщить итоговый срок доставки до нашего склада.",
+        "sent_at": "2026-10-01T09:30:00.000000Z",
+        "in_reply_to_message_id": "email-002"
+      }
+    ]
+  },
+  {
+    "thread_id": "thread-002",
+    "subject": "Срок поставки редуктора РМ-500",
+    "messages": [
+      {
+        "message_id": "email-004",
+        "thread_id": "thread-002",
+        "sender": "engineering@volga-systems.example.com",
+        "recipients": ["logistics@industria-komplekt.example.com"],
+        "subject": "Срок поставки редуктора РМ-500",
+        "body": "Просим уточнить статус редуктора РМ-500 по заказу VS-1048. Оборудование требуется для планового ремонта до 20 октября.",
+        "sent_at": "2026-10-05T11:15:20.250000Z",
+        "in_reply_to_message_id": null
+      },
+      {
+        "message_id": "email-005",
+        "thread_id": "thread-002",
+        "sender": "logistics@industria-komplekt.example.com",
+        "recipients": ["engineering@volga-systems.example.com"],
+        "subject": "Срок поставки редуктора РМ-500",
+        "body": "Поставка редуктора задерживается на четыре дня из-за переноса отгрузки производителем. Можем отдельно отправить комплект крепежа без ожидания основной позиции.",
+        "sent_at": "2026-10-05T13:40:05.500000Z",
+        "in_reply_to_message_id": "email-004"
+      }
+    ]
+  },
+  {
+    "thread_id": "thread-003",
+    "subject": "Условия оплаты партии насосов НЦ-80",
+    "messages": [
+      {
+        "message_id": "email-006",
+        "thread_id": "thread-003",
+        "sender": "finance@neva-process.example.com",
+        "recipients": ["sales@industria-komplekt.example.com"],
+        "subject": "Условия оплаты партии насосов НЦ-80",
+        "body": "Готовы заказать восемь насосов НЦ-80. Подтвердите возможность оплаты 50 процентов авансом и 50 процентов после уведомления о готовности.",
+        "sent_at": "2026-10-08T07:45:10.000000Z",
+        "in_reply_to_message_id": null
+      },
+      {
+        "message_id": "email-007",
+        "thread_id": "thread-003",
+        "sender": "sales@industria-komplekt.example.com",
+        "recipients": ["finance@neva-process.example.com"],
+        "subject": "Условия оплаты партии насосов НЦ-80",
+        "body": "Условия оплаты согласованы. Направьте реквизиты для счёта. Счёт будет действителен пять банковских дней с даты выставления.",
+        "sent_at": "2026-10-08T10:05:45.125000Z",
+        "in_reply_to_message_id": "email-006"
+      }
+    ]
+  }
+]
